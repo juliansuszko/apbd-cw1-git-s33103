@@ -37,6 +37,7 @@ public class StatisticsHelper {
                 min = value;
             }
         }
+        System.out.println(min);
         return min;
     }
 }
