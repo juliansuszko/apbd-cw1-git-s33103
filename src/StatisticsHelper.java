@@ -13,6 +13,10 @@ public class StatisticsHelper {
     }
 
     public static double calculateAverage(int[] values){
-        return 0;
+        double sum = 0;
+        for (int value : values) {
+            sum += value;
+        }
+        return sum / values.length;
     }
 }
