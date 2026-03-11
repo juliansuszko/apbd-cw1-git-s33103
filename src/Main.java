@@ -26,7 +26,7 @@ public class Main {
         }
         System.out.println();
         System.out.print("Your y: ");
-        System.out.println();
+        System.out.println("Maybe there is not?");
         for (double num : y) {
             System.out.print(num + " ");
         }
