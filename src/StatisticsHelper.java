@@ -11,4 +11,8 @@ public class StatisticsHelper {
         }
         return Math.sqrt(sum);
     }
+
+    public static double calculateAverage(int[] values){
+        return 0;
+    }
 }
