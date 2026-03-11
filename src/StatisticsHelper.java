@@ -19,4 +19,14 @@ public class StatisticsHelper {
         }
         return sum / values.length;
     }
+
+    public static double calculateMax(int[] values){
+        double max = values[0];
+        for (int value : values) {
+            if (value > max) {
+                max = value;
+            }
+        }
+        return max;
+    }
 }
