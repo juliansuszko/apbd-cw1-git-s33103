@@ -20,12 +20,13 @@ public class Main {
             y[i] = sc.nextDouble();
         }
         System.out.println("Hello " + name + "!" + " Here are the vectors you entered:");
-        System.out.print("x: ");
+        System.out.print("Your x: ");
         for (double num : x) {
             System.out.print(num + " ");
         }
         System.out.println();
-        System.out.print("y: ");
+        System.out.print("Your y: ");
+        System.out.println();
         for (double num : y) {
             System.out.print(num + " ");
         }
