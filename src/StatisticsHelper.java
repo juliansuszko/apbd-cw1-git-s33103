@@ -31,6 +31,12 @@ public class StatisticsHelper {
     }
 
     public static double calculateMin(int[] values){
-        return 0;
+        double min = values[0];
+        for (int value : values) {
+            if (value < min) {
+                min = value;
+            }
+        }
+        return min;
     }
 }
